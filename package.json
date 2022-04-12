@@ -1,0 +1,27 @@
+{
+  "name": "azure-search-hackernews-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npx prettier --write **/*.{ts,tsx,js,jsx,scss,yml,html,json,md}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synle/azure-search-hackernews-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synle/azure-search-hackernews-example/issues"
+  },
+  "homepage": "https://github.com/synle/azure-search-hackernews-example#readme",
+  "dependencies": {
+    "@azure/cosmos": "^3.15.1",
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "xml-js": "^1.6.11"
+  }
+}
